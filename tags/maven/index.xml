@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Maven on Infinity Architect</title><link>https://cesun.info/tags/maven/</link><description>Recent content in Maven on Infinity Architect</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cesun.info/tags/maven/index.xml" rel="self" type="application/rss+xml"/><item><title>Maven Usage</title><link>https://cesun.info/java/maven/</link><pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><guid>https://cesun.info/java/maven/</guid><description>The design of Maven can be summarized as:
+A lifecycle is an order list of phases
+A phase can be invoked on the CLI by mvn &amp;lt;phase&amp;gt;, which will execute all previous phases in the same lifecycle before executing that specified phase.
+Maven plugins provide goals, and goals can be bound to a phase.
+To use a plugin, put &amp;lt;plugin&amp;gt; in project&amp;gt;build&amp;gt;plugins. (not project&amp;gt;build&amp;gt;pluginManagement&amp;gt;plugins!)
+Executing a phase is to execute all goals bound to that phase</description></item></channel></rss>
